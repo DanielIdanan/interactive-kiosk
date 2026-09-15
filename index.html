@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kiosk</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Kiosk</h1>
+    <p id="timestamp">Loading...</p>
+  </header>
+
+  <section>
+    <h2>Theme Toggle</h2>
+    <button id="theme-btn">Change Theme</button>
+  </section>
+
+  <section>
+    <h2>Hover Card</h2>
+    <div id="hover-card" class="card">
+      Hover over me
+      <p id="hidden-info" class="hidden-info">Secret info revealed!</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Live Search Filter</h2>
+    <input type="text" id="search-box" placeholder="Type to filter..." />
+    <ul id="item-list">
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Cherry</li>
+      <li>Date</li>
+      <li>Elderberry</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Character Counter</h2>
+    <textarea id="text-area" placeholder="Start typing..."></textarea>
+    <p id="char-count">Characters: 0</p>
+  </section>
+
+  <section>
+    <h2>Simple Form</h2>
+    <form id="demo-form">
+      <input type="text" id="name-input" placeholder="Your name" />
+      <button type="submit">Submit</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <section>
+    <h2>One-Time Notice</h2>
+    <button id="notice-btn">Dismiss This Notice</button>
+    <p id="notice-text">This button only works once. Click it and try again.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
